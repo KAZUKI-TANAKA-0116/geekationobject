@@ -63,11 +63,5 @@ public class Property {
 		System.out.println("物件所有者名：" + this.owner);
 		System.out.println("物件種別：" + this.aparttype);
 		System.out.println("物件価格：" + this.apartprice + "円");
-
-		if (!this.aparttype.equals("土地")) {
-			System.out.println("間取り：" + this.size + "LDK");
-			System.out.println("=============================");
-		}
 	}
-
 }
